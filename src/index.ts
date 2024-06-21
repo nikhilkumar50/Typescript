@@ -17,3 +17,18 @@ const namestring2:ReadonlyArray<string>=["a","c"];
 
 console.log(values);
 
+type obj={
+    height:number,
+    weight:number,
+    gender?:string,
+}
+
+const nikhil:obj={
+    height:180,
+    weight:72,
+    gender:"male",
+}
+const person:obj={
+    height:150,
+    weight:50,
+}
