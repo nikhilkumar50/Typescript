@@ -31,4 +31,4 @@ const nikhil:obj={
 const person:obj={
     height:150,
     weight:50,
-}
+} 
