@@ -202,4 +202,3 @@ const btn=document.getElementById("btn") as HTMLElement;
 // const btn=<HTMLElement>document.getElementById("btn");
 
 
-btn.onclick
