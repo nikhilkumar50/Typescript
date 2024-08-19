@@ -243,7 +243,28 @@ const btn=document.getElementById("btn") as HTMLElement;
 //     jack:{age:34},
 // }
 
+// interface ShippingInfo{
+//     city:string,
+//     state:string,
+//     country:string,
+// }
+// type orderInfo=Pick<ShippingInfo,"city"|"state"|"country"> //so type orderInfo will have 3 keys city,state,country
+
+// type random1=Omit<ShippingInfo,"city"> // so type random will have two key state ,country exculding city
 
 
+// Exclude <Type,ExcludedUnion>
+
+// type MyUnion1=string|number|boolean;
+// type random2=Exclude<MyUnion1,boolean>
+
+//Extract<Type,Union>
+// type MyUnion=string|number|boolean
+// type random3=Extract<MyUnion,boolean>
+
+//NonNullable<Type>
+
+// type MyUnion4=string|number|boolean|null|undefined
+// type Random4=NonNullable<MyUnion>
 
 
