@@ -71,4 +71,32 @@ const product1 = new Product("Samsung", 15000, 25);
 // const btn=document.getElementById("btn")!;
 const btn = document.getElementById("btn");
 // const btn=<HTMLElement>document.getElementById("btn");
-btn.onclick;
+// type User={
+//     name:string,
+//     email:string,
+// }
+// type User2=Partial<User> //it makes both the property optional
+// type User3={
+//     name?:string,
+//     email?:string,
+// }
+// type User4=Required<User3>; //it makes both the property mandotary
+// type User={
+//     name:string,
+//     email:string,
+// }
+// // it make the User type as readonly
+// const user:Readonly<User>={
+//     name:"Nikhil",
+//     email:"nikhil@xscaleglobal.com",
+// }
+// interface UserInfo {
+//     age:number;
+// }
+// type UserName="john"|"levi"|"elon"|"jack";
+// const users:Record<UserName,UserInfo>={
+//     john:{age:34},
+//     levi:{age:34},
+//     elon:{age:34},
+//     jack:{age:34},
+// }
